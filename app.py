@@ -17,8 +17,8 @@ def toggle_button(button_state: str):
     b = separated[1]
     n = len(a)
     m = len(b)
-    a.lower()
-    b.lower()
+    a = a.lower()
+    b = b.lower()
     if a == "josep" and b == "jose":
         output = "Huynh"
     elif a[0:6] == "joseph" and n == 7 and b[0:6] == "joseph" and m == 8:
